@@ -1,0 +1,51 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: auto;
+    font-style: normal;
+}
+.container {
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .country-card {
+    width: 350px;
+    height: 400px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .country-card p {
+    margin-bottom: 10px;
+  }
+  
+  .country-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .country-card h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .country-card img,
+  .country-card p {
+    margin-bottom: 10px;
+  }
+  .country-cards-container{
+    display: flex;
+    overflow-y: hidden;
+  }
